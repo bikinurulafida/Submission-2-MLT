@@ -179,7 +179,8 @@ Jika seorang pengguna belum menunjukkan minat dalam kategori atau genre tertentu
 - Overfitting pada Preferensi Pengguna
 Sistem dapat cenderung mengandalkan preferensi masa lalu pengguna dan memberikan rekomendasi yang terlalu mirip dengan buku-buku sebelumnya, sehingga kurang memberikan kesempatan untuk eksplorasi genre atau topik baru.
 
-## Evaluation
+**Top 20 Rekomendasi**
+
 Judul Buku: Paint it Black
 
 Penulis: Janet Fitch
@@ -213,8 +214,7 @@ Berikut adalah daftar buku yang dipublikasikan dengan detail penulis, penerbit, 
 | 19  | Judge & Jury                                      | James Patterson/Andrew Gross  | eng               | Little Brown and Company     |
 | 20  | Consider the Lobster and Other Essays             | David Foster Wallace          | eng               | Little Brown and Company     |
 
-
-
+## Evaluation
 Setelah membangun model rekomendasi, langkah selanjutnya adalah mengevaluasi kinerjanya. Untuk mengevaluasi Content-Based Filtering, kita menggunakan metrik Precision@k, metrik evaluasi yang digunakan untuk mengukur akurasi dari sistem rekomendasi, dengan fokus pada seberapa banyak rekomendasi yang diberikan benar-benar relevan dengan preferensi pengguna. Dalam konteks sistem rekomendasi buku berbasis Content-Based Filtering, Precision mengukur persentase buku yang relevan di antara buku-buku yang direkomendasikan.
 
 Rumus:
